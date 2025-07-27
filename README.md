@@ -1,5 +1,5 @@
 # teaching_fMRI
-Materials for teaching fMRI tailored to novices (with background in neuroscience, coding, neuroimaging).
+Materials for teaching fMRI tailored to novices (with background in neuroscience and coding).
 
 05/2024: Originally prepared these for a class I taught in the Masters program at USyd.
 
