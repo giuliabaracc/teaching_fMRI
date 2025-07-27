@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.12: http://docutils.sourceforge.net/" />
+<title></title>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+<style type="text/css">
+.sub-report-title {}
+.run-title {}
+
+h1 { padding-top: 35px; }
+h2 { padding-top: 20px; }
+h3 { padding-top: 15px; }
+
+.elem-desc {}
+.elem-caption {
+    margin-top: 15px
+    margin-bottom: 0;
+}
+.elem-filename {}
+
+div.elem-image {
+  width: 100%;
+  page-break-before:always;
+}
+
+.elem-image object.svg-reportlet {
+    width: 100%;
+    padding-bottom: 5px;
+}
+body {
+    padding: 65px 10px 10px;
+}
+
+.boiler-html {
+    font-family: "Bitstream Charter", "Georgia", Times;
+    margin: 20px 25px;
+    padding: 10px;
+    background-color: #F8F9FA;
+}
+
+div#boilerplate pre {
+    margin: 20px 25px;
+    padding: 10px;
+    background-color: #F8F9FA;
+}
+
+#errors div, #errors p {
+    padding-left: 1em;
+}
+</style>
+</head>
+<body>
+
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+<div class="collapse navbar-collapse">
+    <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="#Summary">Summary</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Anatomical">Anatomical</a></li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="navbarFunctional" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">Functional</a>
+            <div class="dropdown-menu" aria-labelledby="navbarFunctional">
+                    <a class="dropdown-item" href="#datatype-figures_desc-summary_suffix-bold_task-rest">Reports for: task <span class="bids-entity">rest</span>.</a>
+            </div>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="#About">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#boilerplate">Methods</a></li>
+        <li class="nav-item"><a class="nav-link" href="#errors">Errors</a></li>
+    </ul>
+</div>
+</nav>
+<noscript>
+    <h1 class="text-danger"> The navigation menu uses Javascript. Without it this report might not work as expected </h1>
+</noscript>
+
+    <div id="Summary">
+    <h1 class="sub-report-title">Summary</h1>
+        <div id="datatype-figures_desc-summary_suffix-T1w">
+                    <ul class="elem-desc">
+		<li>Subject ID: 003</li>
+		<li>Structural images: 1 T1-weighted </li>
+		<li>Functional series: 1</li>
+		<ul class="elem-desc">
+			<li>Task: rest (1 run)</li>
+		</ul>
+		<li>Standard output spaces: MNI152NLin6Asym, MNI152NLin2009cAsym</li>
+		<li>Non-standard output spaces: </li>
+		<li>FreeSurfer reconstruction: Not run</li>
+	</ul>
+        </div>
+    </div>
+    <div id="Anatomical">
+    <h1 class="sub-report-title">Anatomical</h1>
+        <div id="datatype-figures_desc-conform_extension-['.html']_suffix-T1w">
+                    <h3 class="elem-title">Anatomical Conformation</h3>
+		<ul class="elem-desc">
+			<li>Input T1w images: 1</li>
+			<li>Output orientation: RAS</li>
+			<li>Output dimensions: 192x256x160</li>
+			<li>Output voxel size: 1mm x 1mm x 1mm</li>
+			<li>Discarded images: 0</li>
+
+		</ul>
+        </div>
+        <div id="datatype-figures_suffix-dseg">
+<h3 class="run-title">Brain mask and brain tissue segmentation of the T1w</h3><p class="elem-caption">This panel shows the template T1-weighted image (if several T1w images were found), with contours delineating the detected brain mask and brain tissue segmentations.</p>                    <img class="svg-reportlet" src="./sub-003/figures/sub-003_dseg.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-003/figures/sub-003_dseg.svg" target="_blank">sub-003/figures/sub-003_dseg.svg</a>
+</div>
+
+        </div>
+        <div id="datatype-figures_regex_search-True_space-.*_suffix-T1w">
+<h3 class="run-title">Spatial normalization of the anatomical T1w reference</h3><p class="elem-desc">Results of nonlinear alignment of the T1w reference one or more template space(s). Hover on the panels with the mouse pointer to transition between both spaces.</p><p class="elem-caption">Spatial normalization of the T1w image to the <code>MNI152NLin6Asym</code> template.</p>                    <object class="svg-reportlet" type="image/svg+xml" data="./sub-003/figures/sub-003_space-MNI152NLin6Asym_T1w.svg">
+Problem loading figure sub-003/figures/sub-003_space-MNI152NLin6Asym_T1w.svg. If the link below works, please try reloading the report in your browser.</object>
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-003/figures/sub-003_space-MNI152NLin6Asym_T1w.svg" target="_blank">sub-003/figures/sub-003_space-MNI152NLin6Asym_T1w.svg</a>
+</div>
+
+<p class="elem-caption">Spatial normalization of the T1w image to the <code>MNI152NLin2009cAsym</code> template.</p>                    <object class="svg-reportlet" type="image/svg+xml" data="./sub-003/figures/sub-003_space-MNI152NLin2009cAsym_T1w.svg">
+Problem loading figure sub-003/figures/sub-003_space-MNI152NLin2009cAsym_T1w.svg. If the link below works, please try reloading the report in your browser.</object>
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-003/figures/sub-003_space-MNI152NLin2009cAsym_T1w.svg" target="_blank">sub-003/figures/sub-003_space-MNI152NLin2009cAsym_T1w.svg</a>
+</div>
+
+        </div>
+    </div>
+    <div id="Functional">
+    <h1 class="sub-report-title">Functional</h1>
+        <div id="datatype-figures_desc-summary_suffix-bold_task-rest">
+<h2 class="sub-report-group">Reports for: task <span class="bids-entity">rest</span>.</h2>                    <details open>
+		<summary>Summary</summary>
+		<ul class="elem-desc">
+			<li>Original orientation: LAS</li>
+			<li>Repetition time (TR): 2s</li>
+			<li>Phase-encoding (PE) direction: Anterior-Posterior</li>
+			<li>Single-echo EPI sequence.</li>
+			<li>Slice timing correction: Applied</li>
+			<li>Susceptibility distortion correction: None</li>
+			<li>Registration: FSL <code>flirt</code> with boundary-based registration (BBR) metric - 6 dof</li>
+			<li>Non-steady-state volumes: 2</li>
+		</ul>
+		</details>
+		<details>
+			<summary>Confounds collected</summary><br />
+			<p>global_signal, global_signal_derivative1, global_signal_power2, global_signal_derivative1_power2, csf, csf_derivative1, csf_derivative1_power2, csf_power2, white_matter, white_matter_derivative1, white_matter_derivative1_power2, white_matter_power2, csf_wm, tcompcor, std_dvars, dvars, framewise_displacement, rmsd, t_comp_cor_00, t_comp_cor_01, t_comp_cor_02, t_comp_cor_03, t_comp_cor_04, t_comp_cor_05, t_comp_cor_06, t_comp_cor_07, t_comp_cor_08, t_comp_cor_09, t_comp_cor_10, t_comp_cor_11, t_comp_cor_12, t_comp_cor_13, t_comp_cor_14, t_comp_cor_15, t_comp_cor_16, t_comp_cor_17, t_comp_cor_18, t_comp_cor_19, t_comp_cor_20, t_comp_cor_21, t_comp_cor_22, t_comp_cor_23, t_comp_cor_24, t_comp_cor_25, t_comp_cor_26, t_comp_cor_27, t_comp_cor_28, t_comp_cor_29, t_comp_cor_30, t_comp_cor_31, t_comp_cor_32, t_comp_cor_33, t_comp_cor_34, t_comp_cor_35, t_comp_cor_36, t_comp_cor_37, t_comp_cor_38, t_comp_cor_39, t_comp_cor_40, t_comp_cor_41, t_comp_cor_42, t_comp_cor_43, t_comp_cor_44, t_comp_cor_45, t_comp_cor_46, t_comp_cor_47, t_comp_cor_48, t_comp_cor_49, t_comp_cor_50, t_comp_cor_51, t_comp_cor_52, t_comp_cor_53, t_comp_cor_54, t_comp_cor_55, t_comp_cor_56, t_comp_cor_57, t_comp_cor_58, t_comp_cor_59, t_comp_cor_60, t_comp_cor_61, t_comp_cor_62, t_comp_cor_63, t_comp_cor_64, t_comp_cor_65, t_comp_cor_66, t_comp_cor_67, t_comp_cor_68, t_comp_cor_69, t_comp_cor_70, t_comp_cor_71, t_comp_cor_72, t_comp_cor_73, t_comp_cor_74, t_comp_cor_75, t_comp_cor_76, t_comp_cor_77, t_comp_cor_78, t_comp_cor_79, t_comp_cor_80, t_comp_cor_81, t_comp_cor_82, t_comp_cor_83, t_comp_cor_84, t_comp_cor_85, t_comp_cor_86, t_comp_cor_87, t_comp_cor_88, t_comp_cor_89, t_comp_cor_90, t_comp_cor_91, t_comp_cor_92, t_comp_cor_93, t_comp_cor_94, t_comp_cor_95, t_comp_cor_96, t_comp_cor_97, t_comp_cor_98, t_comp_cor_99, t_comp_cor_100, t_comp_cor_101, t_comp_cor_102, t_comp_cor_103, t_comp_cor_104, t_comp_cor_105, t_comp_cor_106, t_comp_cor_107, t_comp_cor_108, t_comp_cor_109, t_comp_cor_110, t_comp_cor_111, t_comp_cor_112, t_comp_cor_113, t_comp_cor_114, t_comp_cor_115, t_comp_cor_116, t_comp_cor_117, t_comp_cor_118, t_comp_cor_119, t_comp_cor_120, t_comp_cor_121, t_comp_cor_122, t_comp_cor_123, t_comp_cor_124, t_comp_cor_125, t_comp_cor_126, t_comp_cor_127, t_comp_cor_128, t_comp_cor_129, t_comp_cor_130, t_comp_cor_131, t_comp_cor_132, t_comp_cor_133, t_comp_cor_134, t_comp_cor_135, t_comp_cor_136, t_comp_cor_137, t_comp_cor_138, t_comp_cor_139, t_comp_cor_140, t_comp_cor_141, t_comp_cor_142, t_comp_cor_143, t_comp_cor_144, t_comp_cor_145, t_comp_cor_146, t_comp_cor_147, t_comp_cor_148, t_comp_cor_149, t_comp_cor_150, t_comp_cor_151, t_comp_cor_152, t_comp_cor_153, t_comp_cor_154, t_comp_cor_155, t_comp_cor_156, t_comp_cor_157, t_comp_cor_158, t_comp_cor_159, t_comp_cor_160, t_comp_cor_161, t_comp_cor_162, t_comp_cor_163, t_comp_cor_164, t_comp_cor_165, t_comp_cor_166, t_comp_cor_167, t_comp_cor_168, t_comp_cor_169, t_comp_cor_170, t_comp_cor_171, t_comp_cor_172, t_comp_cor_173, t_comp_cor_174, t_comp_cor_175, t_comp_cor_176, t_comp_cor_177, t_comp_cor_178, t_comp_cor_179, t_comp_cor_180, t_comp_cor_181, t_comp_cor_182, t_comp_cor_183, t_comp_cor_184, t_comp_cor_185, t_comp_cor_186, t_comp_cor_187, t_comp_cor_188, t_comp_cor_189, t_comp_cor_190, t_comp_cor_191, t_comp_cor_192, t_comp_cor_193, t_comp_cor_194, t_comp_cor_195, t_comp_cor_196, t_comp_cor_197, t_comp_cor_198, t_comp_cor_199, t_comp_cor_200, t_comp_cor_201, t_comp_cor_202, t_comp_cor_203, t_comp_cor_204, t_comp_cor_205, t_comp_cor_206, t_comp_cor_207, t_comp_cor_208, t_comp_cor_209, t_comp_cor_210, t_comp_cor_211, t_comp_cor_212, t_comp_cor_213, t_comp_cor_214, t_comp_cor_215, t_comp_cor_216, t_comp_cor_217, t_comp_cor_218, t_comp_cor_219, t_comp_cor_220, t_comp_cor_221, t_comp_cor_222, t_comp_cor_223, t_comp_cor_224, t_comp_cor_225, t_comp_cor_226, t_comp_cor_227, t_comp_cor_228, t_comp_cor_229, t_comp_cor_230, t_comp_cor_231, t_comp_cor_232, t_comp_cor_233, t_comp_cor_234, t_comp_cor_235, t_comp_cor_236, t_comp_cor_237, t_comp_cor_238, t_comp_cor_239, t_comp_cor_240, t_comp_cor_241, t_comp_cor_242, t_comp_cor_243, t_comp_cor_244, t_comp_cor_245, t_comp_cor_246, t_comp_cor_247, t_comp_cor_248, t_comp_cor_249, t_comp_cor_250, t_comp_cor_251, t_comp_cor_252, t_comp_cor_253, t_comp_cor_254, t_comp_cor_255, t_comp_cor_256, t_comp_cor_257, t_comp_cor_258, t_comp_cor_259, t_comp_cor_260, t_comp_cor_261, t_comp_cor_262, t_comp_cor_263, t_comp_cor_264, t_comp_cor_265, t_comp_cor_266, t_comp_cor_267, t_comp_cor_268, t_comp_cor_269, t_comp_cor_270, t_comp_cor_271, t_comp_cor_272, t_comp_cor_273, t_comp_cor_274, t_comp_cor_275, t_comp_cor_276, t_comp_cor_277, t_comp_cor_278, t_comp_cor_279, t_comp_cor_280, t_comp_cor_281, t_comp_cor_282, t_comp_cor_283, t_comp_cor_284, t_comp_cor_285, t_comp_cor_286, t_comp_cor_287, t_comp_cor_288, t_comp_cor_289, t_comp_cor_290, t_comp_cor_291, t_comp_cor_292, t_comp_cor_293, t_comp_cor_294, c_comp_cor_00, c_comp_cor_01, c_comp_cor_02, c_comp_cor_03, c_comp_cor_04, c_comp_cor_05, c_comp_cor_06, c_comp_cor_07, c_comp_cor_08, c_comp_cor_09, c_comp_cor_10, c_comp_cor_11, c_comp_cor_12, c_comp_cor_13, c_comp_cor_14, c_comp_cor_15, c_comp_cor_16, c_comp_cor_17, c_comp_cor_18, c_comp_cor_19, c_comp_cor_20, c_comp_cor_21, c_comp_cor_22, c_comp_cor_23, c_comp_cor_24, c_comp_cor_25, c_comp_cor_26, c_comp_cor_27, c_comp_cor_28, c_comp_cor_29, c_comp_cor_30, c_comp_cor_31, c_comp_cor_32, c_comp_cor_33, c_comp_cor_34, c_comp_cor_35, c_comp_cor_36, c_comp_cor_37, c_comp_cor_38, c_comp_cor_39, c_comp_cor_40, c_comp_cor_41, c_comp_cor_42, c_comp_cor_43, c_comp_cor_44, c_comp_cor_45, c_comp_cor_46, c_comp_cor_47, c_comp_cor_48, c_comp_cor_49, c_comp_cor_50, c_comp_cor_51, c_comp_cor_52, c_comp_cor_53, c_comp_cor_54, c_comp_cor_55, c_comp_cor_56, c_comp_cor_57, c_comp_cor_58, c_comp_cor_59, c_comp_cor_60, c_comp_cor_61, c_comp_cor_62, c_comp_cor_63, c_comp_cor_64, c_comp_cor_65, c_comp_cor_66, c_comp_cor_67, c_comp_cor_68, c_comp_cor_69, c_comp_cor_70, c_comp_cor_71, c_comp_cor_72, c_comp_cor_73, c_comp_cor_74, c_comp_cor_75, c_comp_cor_76, c_comp_cor_77, c_comp_cor_78, c_comp_cor_79, c_comp_cor_80, c_comp_cor_81, c_comp_cor_82, c_comp_cor_83, c_comp_cor_84, c_comp_cor_85, c_comp_cor_86, c_comp_cor_87, c_comp_cor_88, c_comp_cor_89, c_comp_cor_90, c_comp_cor_91, c_comp_cor_92, c_comp_cor_93, c_comp_cor_94, c_comp_cor_95, c_comp_cor_96, c_comp_cor_97, c_comp_cor_98, c_comp_cor_99, c_comp_cor_100, c_comp_cor_101, c_comp_cor_102, c_comp_cor_103, c_comp_cor_104, c_comp_cor_105, c_comp_cor_106, c_comp_cor_107, c_comp_cor_108, c_comp_cor_109, c_comp_cor_110, c_comp_cor_111, c_comp_cor_112, c_comp_cor_113, c_comp_cor_114, c_comp_cor_115, c_comp_cor_116, c_comp_cor_117, c_comp_cor_118, c_comp_cor_119, c_comp_cor_120, c_comp_cor_121, c_comp_cor_122, c_comp_cor_123, c_comp_cor_124, c_comp_cor_125, c_comp_cor_126, c_comp_cor_127, c_comp_cor_128, c_comp_cor_129, c_comp_cor_130, c_comp_cor_131, c_comp_cor_132, c_comp_cor_133, c_comp_cor_134, c_comp_cor_135, c_comp_cor_136, c_comp_cor_137, c_comp_cor_138, c_comp_cor_139, c_comp_cor_140, c_comp_cor_141, c_comp_cor_142, c_comp_cor_143, c_comp_cor_144, c_comp_cor_145, c_comp_cor_146, c_comp_cor_147, c_comp_cor_148, c_comp_cor_149, c_comp_cor_150, c_comp_cor_151, c_comp_cor_152, c_comp_cor_153, c_comp_cor_154, c_comp_cor_155, c_comp_cor_156, c_comp_cor_157, c_comp_cor_158, c_comp_cor_159, c_comp_cor_160, c_comp_cor_161, c_comp_cor_162, c_comp_cor_163, c_comp_cor_164, c_comp_cor_165, c_comp_cor_166, c_comp_cor_167, c_comp_cor_168, c_comp_cor_169, c_comp_cor_170, c_comp_cor_171, c_comp_cor_172, c_comp_cor_173, c_comp_cor_174, c_comp_cor_175, c_comp_cor_176, c_comp_cor_177, c_comp_cor_178, c_comp_cor_179, c_comp_cor_180, c_comp_cor_181, c_comp_cor_182, c_comp_cor_183, c_comp_cor_184, c_comp_cor_185, c_comp_cor_186, c_comp_cor_187, c_comp_cor_188, c_comp_cor_189, c_comp_cor_190, c_comp_cor_191, c_comp_cor_192, c_comp_cor_193, c_comp_cor_194, c_comp_cor_195, c_comp_cor_196, c_comp_cor_197, c_comp_cor_198, c_comp_cor_199, c_comp_cor_200, c_comp_cor_201, c_comp_cor_202, c_comp_cor_203, c_comp_cor_204, c_comp_cor_205, c_comp_cor_206, c_comp_cor_207, c_comp_cor_208, c_comp_cor_209, c_comp_cor_210, c_comp_cor_211, c_comp_cor_212, c_comp_cor_213, c_comp_cor_214, c_comp_cor_215, c_comp_cor_216, c_comp_cor_217, c_comp_cor_218, c_comp_cor_219, c_comp_cor_220, c_comp_cor_221, c_comp_cor_222, c_comp_cor_223, c_comp_cor_224, c_comp_cor_225, c_comp_cor_226, c_comp_cor_227, c_comp_cor_228, c_comp_cor_229, c_comp_cor_230, c_comp_cor_231, c_comp_cor_232, c_comp_cor_233, c_comp_cor_234, c_comp_cor_235, c_comp_cor_236, c_comp_cor_237, c_comp_cor_238, c_comp_cor_239, c_comp_cor_240, c_comp_cor_241, c_comp_cor_242, c_comp_cor_243, c_comp_cor_244, c_comp_cor_245, c_comp_cor_246, c_comp_cor_247, c_comp_cor_248, c_comp_cor_249, c_comp_cor_250, c_comp_cor_251, c_comp_cor_252, c_comp_cor_253, c_comp_cor_254, c_comp_cor_255, c_comp_cor_256, c_comp_cor_257, c_comp_cor_258, c_comp_cor_259, c_comp_cor_260, c_comp_cor_261, c_comp_cor_262, c_comp_cor_263, c_comp_cor_264, c_comp_cor_265, c_comp_cor_266, c_comp_cor_267, c_comp_cor_268, c_comp_cor_269, c_comp_cor_270, c_comp_cor_271, c_comp_cor_272, c_comp_cor_273, c_comp_cor_274, c_comp_cor_275, c_comp_cor_276, c_comp_cor_277, c_comp_cor_278, c_comp_cor_279, c_comp_cor_280, c_comp_cor_281, c_comp_cor_282, c_comp_cor_283, c_comp_cor_284, c_comp_cor_285, c_comp_cor_286, c_comp_cor_287, c_comp_cor_288, c_comp_cor_289, c_comp_cor_290, c_comp_cor_291, c_comp_cor_292, c_comp_cor_293, c_comp_cor_294, w_comp_cor_00, w_comp_cor_01, w_comp_cor_02, w_comp_cor_03, w_comp_cor_04, w_comp_cor_05, w_comp_cor_06, w_comp_cor_07, w_comp_cor_08, w_comp_cor_09, w_comp_cor_10, w_comp_cor_11, w_comp_cor_12, w_comp_cor_13, w_comp_cor_14, w_comp_cor_15, w_comp_cor_16, w_comp_cor_17, w_comp_cor_18, w_comp_cor_19, w_comp_cor_20, w_comp_cor_21, w_comp_cor_22, w_comp_cor_23, w_comp_cor_24, w_comp_cor_25, w_comp_cor_26, w_comp_cor_27, w_comp_cor_28, w_comp_cor_29, w_comp_cor_30, w_comp_cor_31, w_comp_cor_32, w_comp_cor_33, w_comp_cor_34, w_comp_cor_35, w_comp_cor_36, w_comp_cor_37, w_comp_cor_38, w_comp_cor_39, w_comp_cor_40, w_comp_cor_41, w_comp_cor_42, w_comp_cor_43, w_comp_cor_44, w_comp_cor_45, w_comp_cor_46, w_comp_cor_47, w_comp_cor_48, w_comp_cor_49, w_comp_cor_50, w_comp_cor_51, w_comp_cor_52, w_comp_cor_53, w_comp_cor_54, w_comp_cor_55, w_comp_cor_56, w_comp_cor_57, w_comp_cor_58, w_comp_cor_59, w_comp_cor_60, w_comp_cor_61, w_comp_cor_62, w_comp_cor_63, w_comp_cor_64, w_comp_cor_65, w_comp_cor_66, w_comp_cor_67, w_comp_cor_68, w_comp_cor_69, w_comp_cor_70, w_comp_cor_71, w_comp_cor_72, w_comp_cor_73, w_comp_cor_74, w_comp_cor_75, w_comp_cor_76, w_comp_cor_77, w_comp_cor_78, w_comp_cor_79, w_comp_cor_80, w_comp_cor_81, w_comp_cor_82, w_comp_cor_83, w_comp_cor_84, w_comp_cor_85, w_comp_cor_86, w_comp_cor_87, w_comp_cor_88, w_comp_cor_89, w_comp_cor_90, w_comp_cor_91, w_comp_cor_92, w_comp_cor_93, w_comp_cor_94, w_comp_cor_95, w_comp_cor_96, w_comp_cor_97, w_comp_cor_98, w_comp_cor_99, w_comp_cor_100, w_comp_cor_101, w_comp_cor_102, w_comp_cor_103, w_comp_cor_104, w_comp_cor_105, w_comp_cor_106, w_comp_cor_107, w_comp_cor_108, w_comp_cor_109, w_comp_cor_110, w_comp_cor_111, w_comp_cor_112, w_comp_cor_113, w_comp_cor_114, w_comp_cor_115, w_comp_cor_116, w_comp_cor_117, w_comp_cor_118, w_comp_cor_119, w_comp_cor_120, w_comp_cor_121, w_comp_cor_122, w_comp_cor_123, w_comp_cor_124, w_comp_cor_125, w_comp_cor_126, w_comp_cor_127, w_comp_cor_128, w_comp_cor_129, w_comp_cor_130, w_comp_cor_131, w_comp_cor_132, w_comp_cor_133, w_comp_cor_134, w_comp_cor_135, w_comp_cor_136, w_comp_cor_137, w_comp_cor_138, w_comp_cor_139, w_comp_cor_140, w_comp_cor_141, w_comp_cor_142, w_comp_cor_143, w_comp_cor_144, w_comp_cor_145, w_comp_cor_146, w_comp_cor_147, w_comp_cor_148, w_comp_cor_149, w_comp_cor_150, w_comp_cor_151, w_comp_cor_152, w_comp_cor_153, w_comp_cor_154, w_comp_cor_155, w_comp_cor_156, w_comp_cor_157, w_comp_cor_158, w_comp_cor_159, w_comp_cor_160, w_comp_cor_161, w_comp_cor_162, w_comp_cor_163, w_comp_cor_164, w_comp_cor_165, w_comp_cor_166, w_comp_cor_167, w_comp_cor_168, w_comp_cor_169, w_comp_cor_170, w_comp_cor_171, w_comp_cor_172, w_comp_cor_173, w_comp_cor_174, w_comp_cor_175, w_comp_cor_176, w_comp_cor_177, w_comp_cor_178, w_comp_cor_179, w_comp_cor_180, w_comp_cor_181, w_comp_cor_182, w_comp_cor_183, w_comp_cor_184, w_comp_cor_185, w_comp_cor_186, w_comp_cor_187, w_comp_cor_188, w_comp_cor_189, w_comp_cor_190, w_comp_cor_191, w_comp_cor_192, w_comp_cor_193, w_comp_cor_194, w_comp_cor_195, w_comp_cor_196, w_comp_cor_197, w_comp_cor_198, w_comp_cor_199, w_comp_cor_200, w_comp_cor_201, w_comp_cor_202, w_comp_cor_203, w_comp_cor_204, w_comp_cor_205, w_comp_cor_206, w_comp_cor_207, w_comp_cor_208, w_comp_cor_209, w_comp_cor_210, w_comp_cor_211, w_comp_cor_212, w_comp_cor_213, w_comp_cor_214, w_comp_cor_215, w_comp_cor_216, w_comp_cor_217, w_comp_cor_218, w_comp_cor_219, w_comp_cor_220, w_comp_cor_221, w_comp_cor_222, w_comp_cor_223, w_comp_cor_224, w_comp_cor_225, w_comp_cor_226, w_comp_cor_227, w_comp_cor_228, w_comp_cor_229, w_comp_cor_230, w_comp_cor_231, w_comp_cor_232, w_comp_cor_233, w_comp_cor_234, w_comp_cor_235, w_comp_cor_236, w_comp_cor_237, w_comp_cor_238, w_comp_cor_239, w_comp_cor_240, w_comp_cor_241, w_comp_cor_242, w_comp_cor_243, w_comp_cor_244, w_comp_cor_245, w_comp_cor_246, w_comp_cor_247, w_comp_cor_248, w_comp_cor_249, w_comp_cor_250, w_comp_cor_251, w_comp_cor_252, w_comp_cor_253, w_comp_cor_254, w_comp_cor_255, w_comp_cor_256, w_comp_cor_257, w_comp_cor_258, w_comp_cor_259, w_comp_cor_260, w_comp_cor_261, w_comp_cor_262, w_comp_cor_263, w_comp_cor_264, w_comp_cor_265, w_comp_cor_266, w_comp_cor_267, w_comp_cor_268, w_comp_cor_269, w_comp_cor_270, w_comp_cor_271, w_comp_cor_272, w_comp_cor_273, w_comp_cor_274, w_comp_cor_275, w_comp_cor_276, w_comp_cor_277, w_comp_cor_278, w_comp_cor_279, w_comp_cor_280, w_comp_cor_281, w_comp_cor_282, w_comp_cor_283, w_comp_cor_284, w_comp_cor_285, w_comp_cor_286, w_comp_cor_287, w_comp_cor_288, w_comp_cor_289, w_comp_cor_290, w_comp_cor_291, w_comp_cor_292, w_comp_cor_293, w_comp_cor_294, a_comp_cor_00, a_comp_cor_01, a_comp_cor_02, a_comp_cor_03, a_comp_cor_04, a_comp_cor_05, a_comp_cor_06, a_comp_cor_07, a_comp_cor_08, a_comp_cor_09, a_comp_cor_10, a_comp_cor_11, a_comp_cor_12, a_comp_cor_13, a_comp_cor_14, a_comp_cor_15, a_comp_cor_16, a_comp_cor_17, a_comp_cor_18, a_comp_cor_19, a_comp_cor_20, a_comp_cor_21, a_comp_cor_22, a_comp_cor_23, a_comp_cor_24, a_comp_cor_25, a_comp_cor_26, a_comp_cor_27, a_comp_cor_28, a_comp_cor_29, a_comp_cor_30, a_comp_cor_31, a_comp_cor_32, a_comp_cor_33, a_comp_cor_34, a_comp_cor_35, a_comp_cor_36, a_comp_cor_37, a_comp_cor_38, a_comp_cor_39, a_comp_cor_40, a_comp_cor_41, a_comp_cor_42, a_comp_cor_43, a_comp_cor_44, a_comp_cor_45, a_comp_cor_46, a_comp_cor_47, a_comp_cor_48, a_comp_cor_49, a_comp_cor_50, a_comp_cor_51, a_comp_cor_52, a_comp_cor_53, a_comp_cor_54, a_comp_cor_55, a_comp_cor_56, a_comp_cor_57, a_comp_cor_58, a_comp_cor_59, a_comp_cor_60, a_comp_cor_61, a_comp_cor_62, a_comp_cor_63, a_comp_cor_64, a_comp_cor_65, a_comp_cor_66, a_comp_cor_67, a_comp_cor_68, a_comp_cor_69, a_comp_cor_70, a_comp_cor_71, a_comp_cor_72, a_comp_cor_73, a_comp_cor_74, a_comp_cor_75, a_comp_cor_76, a_comp_cor_77, a_comp_cor_78, a_comp_cor_79, a_comp_cor_80, a_comp_cor_81, a_comp_cor_82, a_comp_cor_83, a_comp_cor_84, a_comp_cor_85, a_comp_cor_86, a_comp_cor_87, a_comp_cor_88, a_comp_cor_89, a_comp_cor_90, a_comp_cor_91, a_comp_cor_92, a_comp_cor_93, a_comp_cor_94, a_comp_cor_95, a_comp_cor_96, a_comp_cor_97, a_comp_cor_98, a_comp_cor_99, a_comp_cor_100, a_comp_cor_101, a_comp_cor_102, a_comp_cor_103, a_comp_cor_104, a_comp_cor_105, a_comp_cor_106, a_comp_cor_107, a_comp_cor_108, a_comp_cor_109, a_comp_cor_110, a_comp_cor_111, a_comp_cor_112, a_comp_cor_113, a_comp_cor_114, a_comp_cor_115, a_comp_cor_116, a_comp_cor_117, a_comp_cor_118, a_comp_cor_119, a_comp_cor_120, a_comp_cor_121, a_comp_cor_122, a_comp_cor_123, a_comp_cor_124, a_comp_cor_125, a_comp_cor_126, a_comp_cor_127, a_comp_cor_128, a_comp_cor_129, a_comp_cor_130, a_comp_cor_131, a_comp_cor_132, a_comp_cor_133, a_comp_cor_134, a_comp_cor_135, a_comp_cor_136, a_comp_cor_137, a_comp_cor_138, a_comp_cor_139, a_comp_cor_140, a_comp_cor_141, a_comp_cor_142, a_comp_cor_143, a_comp_cor_144, a_comp_cor_145, a_comp_cor_146, a_comp_cor_147, a_comp_cor_148, a_comp_cor_149, a_comp_cor_150, a_comp_cor_151, a_comp_cor_152, a_comp_cor_153, a_comp_cor_154, a_comp_cor_155, a_comp_cor_156, a_comp_cor_157, a_comp_cor_158, a_comp_cor_159, a_comp_cor_160, a_comp_cor_161, a_comp_cor_162, a_comp_cor_163, a_comp_cor_164, a_comp_cor_165, a_comp_cor_166, a_comp_cor_167, a_comp_cor_168, a_comp_cor_169, a_comp_cor_170, a_comp_cor_171, a_comp_cor_172, a_comp_cor_173, a_comp_cor_174, a_comp_cor_175, a_comp_cor_176, a_comp_cor_177, a_comp_cor_178, a_comp_cor_179, a_comp_cor_180, a_comp_cor_181, a_comp_cor_182, a_comp_cor_183, a_comp_cor_184, a_comp_cor_185, a_comp_cor_186, a_comp_cor_187, a_comp_cor_188, a_comp_cor_189, a_comp_cor_190, a_comp_cor_191, a_comp_cor_192, a_comp_cor_193, a_comp_cor_194, a_comp_cor_195, a_comp_cor_196, a_comp_cor_197, a_comp_cor_198, a_comp_cor_199, a_comp_cor_200, a_comp_cor_201, a_comp_cor_202, a_comp_cor_203, a_comp_cor_204, a_comp_cor_205, a_comp_cor_206, a_comp_cor_207, a_comp_cor_208, a_comp_cor_209, a_comp_cor_210, a_comp_cor_211, a_comp_cor_212, a_comp_cor_213, a_comp_cor_214, a_comp_cor_215, a_comp_cor_216, a_comp_cor_217, a_comp_cor_218, a_comp_cor_219, a_comp_cor_220, a_comp_cor_221, a_comp_cor_222, a_comp_cor_223, a_comp_cor_224, a_comp_cor_225, a_comp_cor_226, a_comp_cor_227, a_comp_cor_228, a_comp_cor_229, a_comp_cor_230, a_comp_cor_231, a_comp_cor_232, a_comp_cor_233, a_comp_cor_234, a_comp_cor_235, a_comp_cor_236, a_comp_cor_237, a_comp_cor_238, a_comp_cor_239, a_comp_cor_240, a_comp_cor_241, a_comp_cor_242, a_comp_cor_243, a_comp_cor_244, a_comp_cor_245, a_comp_cor_246, a_comp_cor_247, a_comp_cor_248, a_comp_cor_249, a_comp_cor_250, a_comp_cor_251, a_comp_cor_252, a_comp_cor_253, a_comp_cor_254, a_comp_cor_255, a_comp_cor_256, a_comp_cor_257, a_comp_cor_258, a_comp_cor_259, a_comp_cor_260, a_comp_cor_261, a_comp_cor_262, a_comp_cor_263, a_comp_cor_264, a_comp_cor_265, a_comp_cor_266, a_comp_cor_267, a_comp_cor_268, a_comp_cor_269, a_comp_cor_270, a_comp_cor_271, a_comp_cor_272, a_comp_cor_273, a_comp_cor_274, a_comp_cor_275, a_comp_cor_276, a_comp_cor_277, a_comp_cor_278, a_comp_cor_279, a_comp_cor_280, a_comp_cor_281, a_comp_cor_282, a_comp_cor_283, a_comp_cor_284, a_comp_cor_285, a_comp_cor_286, a_comp_cor_287, a_comp_cor_288, a_comp_cor_289, a_comp_cor_290, a_comp_cor_291, a_comp_cor_292, a_comp_cor_293, a_comp_cor_294, edge_comp_00, edge_comp_01, edge_comp_02, edge_comp_03, edge_comp_04, edge_comp_05, edge_comp_06, edge_comp_07, edge_comp_08, edge_comp_09, edge_comp_10, edge_comp_11, edge_comp_12, edge_comp_13, edge_comp_14, edge_comp_15, edge_comp_16, edge_comp_17, edge_comp_18, edge_comp_19, edge_comp_20, edge_comp_21, edge_comp_22, edge_comp_23, cosine00, cosine01, cosine02, cosine03, cosine04, cosine05, cosine06, cosine07, non_steady_state_outlier00, non_steady_state_outlier01, trans_x, trans_x_derivative1, trans_x_power2, trans_x_derivative1_power2, trans_y, trans_y_derivative1, trans_y_power2, trans_y_derivative1_power2, trans_z, trans_z_derivative1, trans_z_power2, trans_z_derivative1_power2, rot_x, rot_x_derivative1, rot_x_derivative1_power2, rot_x_power2, rot_y, rot_y_derivative1, rot_y_power2, rot_y_derivative1_power2, rot_z, rot_z_derivative1, rot_z_power2, rot_z_derivative1_power2, motion_outlier00.</p>
+		</details>
+        </div>
+        <div id="datatype-figures_desc-flirtbbr_suffix-bold_task-rest">
+<h3 class="run-title">Alignment of functional and anatomical MRI data (surface driven)</h3><p class="elem-caption">FSL <code>flirt</code> was used to generate transformations from EPI-space to T1w-space - The white matter mask calculated with FSL <code>fast</code> (brain tissue segmentation) was used for BBR. Note that Nearest Neighbor interpolation is used in the reportlets in order to highlight potential spin-history and other artifacts, whereas final images are resampled using Lanczos interpolation.</p>                    <object class="svg-reportlet" type="image/svg+xml" data="./sub-003/figures/sub-003_task-rest_desc-flirtbbr_bold.svg">
+Problem loading figure sub-003/figures/sub-003_task-rest_desc-flirtbbr_bold.svg. If the link below works, please try reloading the report in your browser.</object>
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-003/figures/sub-003_task-rest_desc-flirtbbr_bold.svg" target="_blank">sub-003/figures/sub-003_task-rest_desc-flirtbbr_bold.svg</a>
+</div>
+
+        </div>
+        <div id="datatype-figures_desc-rois_suffix-bold_task-rest">
+<h3 class="run-title">Brain mask and (anatomical/temporal) CompCor ROIs</h3><p class="elem-caption">Brain mask calculated on the BOLD signal (red contour), along with the regions of interest (ROIs) used for the estimation of physiological and movement confounding components that can be then used as nuisance regressors in analysis.<br /> The <em>anatomical CompCor</em> ROI (magenta contour) is a mask combining CSF and WM (white-matter), where voxels containing a minimal partial volume of GM have been removed.<br /> The <em>temporal CompCor</em> ROI (blue contour) contains the top 2% most variable voxels within the brain mask.<br /> The <em>brain edge</em> (or <em>crown</em>) ROI (green contour) picks signals outside but close to the brain, which are decomposed into 24 principal components.</p>                    <img class="svg-reportlet" src="./sub-003/figures/sub-003_task-rest_desc-rois_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-003/figures/sub-003_task-rest_desc-rois_bold.svg" target="_blank">sub-003/figures/sub-003_task-rest_desc-rois_bold.svg</a>
+</div>
+
+        </div>
+        <div id="datatype-figures_desc-compcorvar_suffix-bold_task-rest">
+<h3 class="run-title">Variance explained by t/aCompCor components</h3><p class="elem-caption">The cumulative variance explained by the first k components of the <em>t/aCompCor</em> decomposition, plotted for all values of <em>k</em>. The number of components that must be included in the model in order to explain some fraction of variance in the decomposition mask can be used as a feature selection criterion for confound regression.</p>                    <img class="svg-reportlet" src="./sub-003/figures/sub-003_task-rest_desc-compcorvar_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-003/figures/sub-003_task-rest_desc-compcorvar_bold.svg" target="_blank">sub-003/figures/sub-003_task-rest_desc-compcorvar_bold.svg</a>
+</div>
+
+        </div>
+        <div id="datatype-figures_desc-carpetplot_suffix-bold_task-rest">
+<h3 class="run-title">BOLD Summary</h3><p class="elem-caption">Summary statistics are plotted, which may reveal trends or artifacts in the BOLD data. Global signals calculated within the whole-brain (GS), within the white-matter (WM) and within cerebro-spinal fluid (CSF) show the mean BOLD signal in their corresponding masks. DVARS and FD show the standardized DVARS and framewise-displacement measures for each time point.<br /> A carpet plot shows the time series for all voxels within the brain mask, or if <code>--cifti-output</code> was enabled, all grayordinates. See the figure legend for specific color mappings. "Ctx" = cortex, "Cb" = cerebellum, "WM" = white matter, "CSF" = cerebrospinal fluid. "d" and "s" prefixes indicate "deep" and "shallow" relative to the cortex. "Edge" indicates regions just outside the brain.</p>                    <img class="svg-reportlet" src="./sub-003/figures/sub-003_task-rest_desc-carpetplot_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-003/figures/sub-003_task-rest_desc-carpetplot_bold.svg" target="_blank">sub-003/figures/sub-003_task-rest_desc-carpetplot_bold.svg</a>
+</div>
+
+        </div>
+        <div id="datatype-figures_desc-confoundcorr_suffix-bold_task-rest">
+<h3 class="run-title">Correlations among nuisance regressors</h3><p class="elem-caption">Left: Heatmap summarizing the correlation structure among confound variables.
+(Cosine bases and PCA-derived CompCor components are inherently orthogonal.)
+Right: magnitude of the correlation between each confound time series and the
+mean global signal. Strong correlations might be indicative of partial volume
+effects and can inform decisions about feature orthogonalization prior to
+confound regression.
+</p>                    <img class="svg-reportlet" src="./sub-003/figures/sub-003_task-rest_desc-confoundcorr_bold.svg" style="width: 100%" />
+</div>
+<div class="elem-filename">
+    Get figure file: <a href="./sub-003/figures/sub-003_task-rest_desc-confoundcorr_bold.svg" target="_blank">sub-003/figures/sub-003_task-rest_desc-confoundcorr_bold.svg</a>
+</div>
+
+        </div>
+    </div>
+    <div id="About">
+    <h1 class="sub-report-title">About</h1>
+        <div id="datatype-figures_desc-about_suffix-T1w">
+                    <ul>
+		<li>fMRIPrep version: 23.1.4</li>
+		<li>fMRIPrep command: <code>/usr/local/python/3.9.15/bin/fmriprep /scratch/shine_hpc/GB/fMRI147_YAonly/ /scratch/shine_hpc/GB/workdir_fMRI147_YAonly_rest --skip_bids_validation participant --participant_label 003 -t rest --ignore fieldmaps --fs-license-file /scratch/shine_hpc/fmriprep/freesurfer.txt --output-spaces MNI152NLin6Asym:res-2 MNI152NLin2009cAsym --bold2t1w-dof 6 --return-all-components --fs-no-reconall -w /scratch/shine_hpc/GB/workdir_fMRI147_YAonly_rest</code></li>
+		<li>Date preprocessed: 2025-02-07 09:01:39 +1100</li>
+	</ul>
+</div>
+        </div>
+    </div>
+
+<div id="boilerplate">
+    <h1 class="sub-report-title">Methods</h1>
+    <p>We kindly ask to report results preprocessed with this tool using the following
+       boilerplate.</p>
+    <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="Markdown-tab" data-toggle="tab" href="#Markdown" role="tab" aria-controls="Markdown" aria-selected="true">Markdown</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="myTabContent">
+      <div class="tab-pane fade active show" id="Markdown" role="tabpanel" aria-labelledby="Markdown-tab"><pre>
+Results included in this manuscript come from preprocessing
+performed using *fMRIPrep* 23.1.4
+(@fmriprep1; @fmriprep2; RRID:SCR_016216),
+which is based on *Nipype* 1.8.6
+(@nipype1; @nipype2; RRID:SCR_002502).
+
+
+Anatomical data preprocessing
+
+: A total of 1 T1-weighted (T1w) images were found within the input
+BIDS dataset.The T1-weighted (T1w) image was corrected for intensity non-uniformity (INU)
+with `N4BiasFieldCorrection` [@n4], distributed with ANTs 2.3.1 [@ants, RRID:SCR_004757], and used as T1w-reference throughout the workflow.
+The T1w-reference was then skull-stripped with a *Nipype* implementation of
+the `antsBrainExtraction.sh` workflow (from ANTs), using OASIS30ANTs
+as target template.
+Brain tissue segmentation of cerebrospinal fluid (CSF),
+white-matter (WM) and gray-matter (GM) was performed on
+the brain-extracted T1w using `fast` [FSL 6.0.3:b862cdd5, RRID:SCR_002823,
+@fsl_fast].
+Volume-based spatial normalization to two standard spaces (MNI152NLin6Asym, MNI152NLin2009cAsym) was performed through
+nonlinear registration with `antsRegistration` (ANTs 2.3.1),
+using brain-extracted versions of both T1w reference and the T1w template.
+The following templates were were selected for spatial normalization
+and accessed with *TemplateFlow* [23.0.0, @templateflow]:
+*FSL's MNI ICBM 152 non-linear 6th Generation Asymmetric Average Brain Stereotaxic Registration Model* [@mni152nlin6asym, RRID:SCR_002823; TemplateFlow ID: MNI152NLin6Asym], *ICBM 152 Nonlinear Asymmetrical template version 2009c* [@mni152nlin2009casym, RRID:SCR_008796; TemplateFlow ID: MNI152NLin2009cAsym].
+
+Functional data preprocessing
+
+: For each of the 1 BOLD runs found per subject (across all
+tasks and sessions), the following preprocessing was performed.
+First, a reference volume and its skull-stripped version were generated
+ using a custom
+methodology of *fMRIPrep*.
+Head-motion parameters with respect to the BOLD reference
+(transformation matrices, and six corresponding rotation and translation
+parameters) are estimated before any spatiotemporal filtering using
+`mcflirt` [FSL 6.0.3:b862cdd5, @mcflirt].
+BOLD runs were slice-time corrected to 0.979s (0.5 of slice acquisition range
+0s-1.96s) using `3dTshift` from AFNI 20170202 [@afni, RRID:SCR_005927].
+The BOLD time-series (including slice-timing correction when applied)
+were resampled onto their original, native space by applying
+the transforms to correct for head-motion.
+These resampled BOLD time-series will be referred to as *preprocessed
+BOLD in original space*, or just *preprocessed BOLD*.
+The BOLD reference was then co-registered to the T1w reference using
+`mri_coreg` (FreeSurfer) followed by `flirt` [FSL 6.0.3:b862cdd5, @flirt]
+with the boundary-based registration [@bbr] cost-function.
+Co-registration was configured with six degrees of freedom.
+Several confounding time-series were calculated based on the
+*preprocessed BOLD*: framewise displacement (FD), DVARS and
+three region-wise global signals.
+FD was computed using two formulations following Power (absolute sum of
+relative motions, @power_fd_dvars) and Jenkinson (relative root mean square
+displacement between affines, @mcflirt).
+FD and DVARS are calculated for each functional run, both using their
+implementations in *Nipype* [following the definitions by @power_fd_dvars].
+The three global signals are extracted within the CSF, the WM, and
+the whole-brain masks.
+Additionally, a set of physiological regressors were extracted to
+allow for component-based noise correction [*CompCor*, @compcor].
+Principal components are estimated after high-pass filtering the
+*preprocessed BOLD* time-series (using a discrete cosine filter with
+128s cut-off) for the two *CompCor* variants: temporal (tCompCor)
+and anatomical (aCompCor).
+tCompCor components are then calculated from the top 2% variable
+voxels within the brain mask.
+For aCompCor, three probabilistic masks (CSF, WM and combined CSF+WM)
+are generated in anatomical space.
+The implementation differs from that of Behzadi et al. in that instead
+of eroding the masks by 2 pixels on BOLD space, a mask of pixels that
+likely contain a volume fraction of GM is subtracted from the aCompCor masks.
+This mask is obtained by thresholding the corresponding partial volume map at 0.05, and it ensures components are not extracted
+from voxels containing a minimal fraction of GM.
+Finally, these masks are resampled into BOLD space and binarized by
+thresholding at 0.99 (as in the original implementation).
+Components are also calculated separately within the WM and CSF masks.
+For each CompCor decomposition, the *k* components with the largest singular
+values are retained, such that the retained components' time series are
+sufficient to explain 50 percent of variance across the nuisance mask (CSF,
+WM, combined, or temporal). The remaining components are dropped from
+consideration.
+The head-motion estimates calculated in the correction step were also
+placed within the corresponding confounds file.
+The confound time series derived from head motion estimates and global
+signals were expanded with the inclusion of temporal derivatives and
+quadratic terms for each [@confounds_satterthwaite_2013].
+Frames that exceeded a threshold of 0.5 mm FD or
+1.5 standardized DVARS were annotated as motion outliers.
+Additional nuisance timeseries are calculated by means of principal components
+analysis of the signal found within a thin band (*crown*) of voxels around
+the edge of the brain, as proposed by [@patriat_improved_2017].
+The BOLD time-series were resampled into several standard spaces,
+correspondingly generating the following *spatially-normalized,
+preprocessed BOLD runs*: MNI152NLin6Asym, MNI152NLin2009cAsym.
+First, a reference volume and its skull-stripped version were generated
+ using a custom
+methodology of *fMRIPrep*.
+All resamplings can be performed with *a single interpolation
+step* by composing all the pertinent transformations (i.e. head-motion
+transform matrices, susceptibility distortion correction when available,
+and co-registrations to anatomical and output spaces).
+Gridded (volumetric) resamplings were performed using `antsApplyTransforms` (ANTs),
+configured with Lanczos interpolation to minimize the smoothing
+effects of other kernels [@lanczos].
+Non-gridded (surface) resamplings were performed using `mri_vol2surf`
+(FreeSurfer).
+
+
+Many internal operations of *fMRIPrep* use
+*Nilearn* 0.10.0 [@nilearn, RRID:SCR_001362],
+mostly within the functional processing workflow.
+For more details of the pipeline, see [the section corresponding
+to workflows in *fMRIPrep*'s documentation](https://fmriprep.readthedocs.io/en/latest/workflows.html "FMRIPrep's documentation").
+
+
+### Copyright Waiver
+
+The above boilerplate text was automatically generated by fMRIPrep
+with the express intention that users should copy and paste this
+text into their manuscripts *unchanged*.
+It is released under the [CC0](https://creativecommons.org/publicdomain/zero/1.0/) license.
+
+### References
+
+</pre>
+</div>
+    </div>
+</div>
+
+<div id="errors">
+    <h1 class="sub-report-title">Errors</h1>
+    <p>No errors to report!</p>
+</div>
+
+
+<script type="text/javascript">
+    function toggle(id) {
+        var element = document.getElementById(id);
+        if(element.style.display == 'block')
+            element.style.display = 'none';
+        else
+            element.style.display = 'block';
+    }
+</script>
+</body>
+</html>
